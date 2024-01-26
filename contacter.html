@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>peur contacter moi</title>
+	<style type="text/css">
+		body{
+			background-image: url(hamza.jpg);
+			background-size:70%;
+
+			color: white;
+		}
+		 #mov{
+	      	position: fixed;
+	      top:5px;
+		right:50px;
+		font-size:30px;
+		width:80px;
+		height:50px;
+		border: 2px ridge black;
+		background:white; 
+		text-align:center;
+	      }
+	      #mov:hover{
+	      	color: red;
+	      	font-size:35px;
+	      	padding:5px;
+	      }
+	</style>
+</head>
+<body>
+	<div id="mov">
+		<a href="ham.html">back</a>
+	</div>
+
+	 <div id="cont"> <section class="rouge">
+				<h1> Contactez-moi  !</h1>
+				<div class="sec">
+					<p>Mon profil vous intéresse ?</p>
+					<p>N'hésitez pas à me contacter à l'adresse suivante :
+					<strong>hamza.bouktitiya@uit.ac.ma</strong></p>
+					<br><p> ou par téléphone :077022393</p>
+					<p>Je vous répondrai dans les meilleurs délais !</p>
+				</div>
+			</section>
+           
+   
+    <div>
+        <form>
+            <fieldset>
+                <legend>Informations personnel</legend>
+                
+                <label>Votre sexe :</label>
+                <input type="radio" name="sex"> <label>Homme</label>
+                <input type="radio" name="sex"> Femme<br>
+
+                <label>Centre d'interet</label><br>
+                <input type="checkbox" name="ci"> Voyage<br>
+                <input type="checkbox" name="ci"> Lecture<br>
+                <input type="checkbox" name="ci"> Natation<br>
+                <input type="checkbox" name="ci"> Musique<br>
+
+                <label>Ville :</label><br>
+                <select>
+                    <option>Kenitra</option>
+                    <option>Rabat</option>
+                    <option>Casa</option>
+                    <option>Fes</option>
+                    <option>Meknes</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Ecrire ton email</legend>
+                <label> Nom :</label>
+                <input type="text" name="nom"><br>
+                <label>prenom</label>
+                <input type="text" name="prenom"><br>
+                <label>email</label>
+                <input type="text" name="mail"><br>
+                <label>mot de passe </label>
+                <input type="password" name="pw"><br>
+                <label>message :</label><br>
+                <textarea rows="6" cols="40" placeholder="tappez ton message ici...!"></textarea><br><br>
+                envoyer un fichier<input type="file" name="fichier"><br><br>
+                <input type="reset" name="mail">
+                <input type="submit" name="mail"><br>
+            </fieldset>
+        </form>
+    </div></div>
+
+</body>
+</html>
